@@ -1,0 +1,66 @@
+\documentclass{standalone}
+\usepackage{asymptote}
+\begin{document}
+%[width=10cm,height=10cm]
+\begin{asy}
+settings.render = 8;
+settings.outformat = "pdf";
+import graph3;
+usepackage("amsfonts");
+size3(200);
+currentprojection=orthographic(4,6,3);
+
+real radis = 0.3;
+
+// parametrization
+real x(real t) {return radis*cos(2pi*t);}
+real y(real t) {return radis*sin(2pi*t);}
+real z(real t) {return 0.2*t;}
+real z0(real t) {return 0;}
+
+scale(true);
+
+// some parameters
+real delta = 0.03;
+real phix = 0.1;
+//real phim = 6.7;
+real phim = 3.4;
+real thicknes = 2.2;
+
+// spiral
+path3 spiral1 = graph(x,y,z,0.9,1,operator ..);
+draw(spiral1,linewidth(thicknes));
+path3 spiral2 = graph(x,y,z,1,phim,operator ..);
+draw(spiral2,linewidth(thicknes));
+draw(spiral2,Arrow3);
+
+// blue circle
+draw(circle(O,radis),blue+linewidth(thicknes));
+
+// brown segments
+pen sp = brown+linewidth(2*thicknes);
+
+draw(graph(x,y,z0,phix-delta,phix+delta,operator ..),sp);
+for(real i=1; i<phim; ++i) {
+  draw(graph(x,y,z,i+phix-delta,i+phix+delta,operator ..),sp);
+}
+
+// the dot x
+triple px = (x(phix),y(phix),0);
+dot(px);
+label("$(x,y)$",px,S);
+
+// axes and labels
+pen axpen = gray+linewidth(thicknes);
+//xaxis3("",axpen,Arrow3);
+//yaxis3("",axpen,Arrow3);
+zaxis3("",axpen);//,Arrow3);
+
+label("$\theta \in \mathbb{R}$",(0,0,.75));
+
+// draw((-1,1,2)--(-1,1,.5),linewidth(thicknes),Arrow3);
+// label("$p$",(-1,1,2.5),E);
+
+// label("$S^1$",(-.64*radis,.64*radis,0),W,blue+linewidth(thicknes));
+\end{asy}
+\end{document}

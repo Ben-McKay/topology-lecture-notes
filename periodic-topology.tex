@@ -1,0 +1,13 @@
+\documentclass[tikz]{standalone}
+\begin{document}
+\begin{tikzpicture}
+\draw[gray!50, thick] (0,0) -- (8.5,0);
+\newcount\j
+\foreach \i in {-1,...,7}{ 
+\j=\i
+\draw[gray, very thick] ({1+\j},0) -- ({1.5+\j},0);
+\draw[gray,thick,fill=white] ({1+\j},0) circle (1.8pt);
+\draw[gray,thick,fill=white] ({1.5+\j},0) circle (1.8pt);
+}
+\end{tikzpicture}
+\end{document}

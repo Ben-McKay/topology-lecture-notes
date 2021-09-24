@@ -1,0 +1,26 @@
+% !TEX TS-program = latexmk
+% !TEX encoding = UTF-8 Unicode
+
+% This is a book in LaTeX 2e. 
+% To compile the file, you need to use the following command line commands in Linux:
+%	pdflatex --shell-escape -synctex=1  -recorder topology-lecture-notes.tex
+%	bibtex topology-lecture-notse
+%	makeindex -s notation.gst -o not.gls not.glo  
+%	makeindex topology-lecture-notes
+% and repeat each of these many times.
+\input{preamble}
+\vrefwarning
+\begin{document}%
+\chapter*{Preface}
+There are many excellent books of topology; from the bibliography at the end of this book, the reader might look at \cite{MR705632,MR1700700,MR1867354,MR2483686,MR734483,MR2218695,Milnor:1997,MR3728284,MR2313004,MR2233951,MR2155623,MR1679607,MR1384994,MR2456045}.
+So it might have been wise to avoid writing these notes. 
+They explain what I tried to cover in my 2017 lectures on topology for undergraduate students at University College Cork.
+I assume the reader is familiar with elementary theory of metric spaces.
+I will also give a few examples from differential geometry, which the reader can ignore, and which assume familiarity with manifolds and diffeomorphisms.
+\afterpreface 
+% The chapters  
+\input{topology}
+\input{continuity}
+\input{fundamental-groups}
+\input{covering-spaces}
+\end{document}

@@ -1,0 +1,13 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
+\usepgfplotslibrary{polar}
+\begin{document}
+\begin{tikzpicture}
+	\begin{polaraxis}[xtick=\empty,ytick=\empty,mark=none,draw=white,opacity=0,thin,width=3cm]
+	\addplot+[mark=none,domain=0:360,samples=1000,draw=gray!50,fill=gray!20,opacity=1] 
+		{2-sqrt(sqrt((abs(sin(3*x)))))+cos(9*x)*cos(9*x)*cos(9*x)*cos(9*x)}; 
+	% the expression is the RADIUS
+	\end{polaraxis}
+\end{tikzpicture}
+\end{document}

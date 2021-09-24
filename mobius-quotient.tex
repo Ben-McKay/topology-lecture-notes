@@ -1,0 +1,14 @@
+\documentclass[tikz]{standalone}
+\usetikzlibrary{decorations.markings}
+\begin{document}
+\begin{tikzpicture}
+\fill[draw=gray,gray!50] (0,0) rectangle (1,1);
+\begin{scope}[very thick,decoration={
+    markings,
+    mark=at position 0.5 with {\arrow{latex}}}
+    ] 
+    \draw[postaction={decorate},thick,gray] (0,0) -- (0,1);
+    \draw[postaction={decorate},thick,gray] (1,1) -- (1,0);
+\end{scope}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,13 @@
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\begin{document}
+\begin{tikzpicture}
+   \clip (0.04,0.115) rectangle (1.33,1.26);
+   \begin{polaraxis}[grid=none, axis lines=none,scale=.2]
+     \addplot[thick,gray,mark=none,domain=-10:360,samples=300] { abs(cos(6*x/2))};
+	\coordinate (centr) at (axis cs:0,0) {};
+   \end{polaraxis}
+     \fill[gray] (centr) circle (1pt);
+ \end{tikzpicture}
+\end{document}

@@ -1,0 +1,13 @@
+\documentclass[tikz]{standalone}
+\usepackage{graphicx}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+%\fill[blue!20] (-1.6cm,-1.8cm) rectangle (9.5cm,1.8cm);
+\node at (0,0) {\includegraphics[width=3cm]{torus-with-hole}};
+\node at (2.6cm,0) {\reflectbox{\includegraphics[width=3cm]{torus-with-hole}}};
+\node at (1.3cm,0) {\(+\)};
+\node at (4.27cm,0) {\(=\)};
+\node at (6.84cm,0) {\includegraphics[width=5cm]{genus-2-surface}};
+\end{tikzpicture}
+\end{document}

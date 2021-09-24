@@ -1,0 +1,16 @@
+\documentclass[tikz]{standalone}
+\usetikzlibrary{decorations.markings}
+\begin{document}
+\begin{tikzpicture}
+\fill[draw=gray,gray!50] (0,0) circle (.5cm);
+\begin{scope}[very thick,decoration={
+    markings,
+    mark=at position 0.5 with {\arrow{latex}}}
+    ] 
+%    \draw[postaction={decorate},thick,gray] (0,0) circle (1cm);
+    \draw[rotate=90,postaction={decorate},thick,gray] (0,0) circle (.5cm);
+%  \draw[rotate=180,postaction={decorate},thick,gray] (0,0) circle (1cm);
+    \draw[rotate=270,postaction={decorate},thick,gray] (0,0) circle (.5cm);
+\end{scope}
+\end{tikzpicture}
+\end{document}
