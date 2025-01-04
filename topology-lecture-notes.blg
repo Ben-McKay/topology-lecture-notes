@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: topology-lecture-notes.aux
+The style file: amsplain.bst
+Database file #1: topology-lecture-notes.bib
+You've used 15 entries,
+            2213 wiz_defined-function locations,
+            637 strings with 6323 characters,
+and the built_in function-call counts, 3646 in all, are:
+= -- 285
+> -- 108
+< -- 6
++ -- 49
+- -- 31
+* -- 267
+:= -- 598
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 62
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 197
+empty$ -- 383
+format.name$ -- 31
+if$ -- 775
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 44
+newline$ -- 55
+num.names$ -- 29
+pop$ -- 71
+preamble$ -- 1
+purify$ -- 46
+quote$ -- 0
+skip$ -- 115
+stack$ -- 0
+substring$ -- 125
+swap$ -- 50
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 0
+while$ -- 32
+width$ -- 17
+write$ -- 171

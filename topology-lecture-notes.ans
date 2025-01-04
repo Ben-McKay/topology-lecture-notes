@@ -1,0 +1,365 @@
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:topology:small.sets}.}
+On the empty set, the only topology is the one whose only open set is the empty set.
+On the set \(X=\set{0}\), the only topology is the discrete topology, which is also the indiscrete topology.
+On the set \(X=\set{0,1}\), the possible topologies are
+\begin{enumerate}
+\item discrete: open sets are: the empty set, \(\set{0},\set{1},\set{0,1}\);
+\item indiscrete: open sets are: the empty set, \(\set{0,1}\);
+\item the \emph{Sierpinski topology}: open sets are: the empty set, \(\set{0}, \set{0,1}\);
+\item the \emph{other Sierpinski topology}: open sets are: the empty set, \(\set{1}, \set{0,1}\).
+\end{enumerate}
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:topology:closed.properties}.}
+Take some sets \(\set{C_a}_{a \in \mathcal{A}}\), so that each \(C_a \subseteq X\) is closed.
+The complement \(U_a\defeq X-C_a\) is open.
+So the union \(U \defeq \bigcup_a U_a\) is open.
+So its complement \(C=X-U\) is closed.
+But \(C\) is the set of points of \(X\) not belonging to \(U\), i.e. not belonging to any \(U_a\), i.e. belonging to \(C_a\) instead of \(U_a\) for every \(a\), i.e. \(C=\bigcap_a C_a\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:topology:diagonal}.}
+The diagonal is closed just when its complement is open.
+Its complement is the set \(U \subset X \times X\) of pairs of distinct points.
+This \(U\) is open just when every point of \(U\) lies inside a basis element which lies in \(U\), for any basis, and in particular for the basis consisting of products \(U_1 \times U_2\) of open sets \(U_1, U_2 \subset X\).
+So the diagonal is closed just when, for any pair of distinct points \(x_1 \ne x_2\) in \(X\), the point \((x_1,x_2)\) lies inside a subset \(U_1 \times U_2 \subset X \times X\) which does not intersect the diagonal.
+In other words, just when \(x_1 \in U_1\) and \(x_2 \in U_2\) but \(U_1 \cap U_2\) is empty.
+In other words, just when \(X\) is Hausdorff.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:topology:product.Hausdorff}.}
+Take two points \((x_1,y_1), (x_2,y_2)\) in \(X \times Y\).
+Take disjoint open sets \(X_1, X_2 \subset X\) and \(Y_1, Y_2 \subset Y\) so that \(x_1, x_2, y_1, y_2\) belong to \(X_1, X_2, Y_1, Y_2 \) respectively.
+Then \((x_1,y_1)\) is in \(X_1 \times Y_1\) and so on.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:topological:compact.closed.2}.}
+Take \(X\) to be a set consisting of two points \(p,q\) with open sets: \(X\), the empty set, and the set \(\set{p}\).
+Then \(\set{q}\) is the complement of \(\set{p}\), so closed.
+But \(\set{p}\) is \emph{not} the complement of an open set, so is not closed.
+There are only 4 open sets, so every open cover is finite.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:topology:Hausdorff.compact.intersection}.}
+Take compact sets \(K_a\) and let \(K\) be their intersection.
+Take an open cover \(U_b\) of \(K\).
+By lemma~\vref{lemma:compact.closed}, every \(K_a\) is closed.
+Therefore the intersection \(K\) is closed, so \(X-K\) is open.
+The open sets \(\set{X-K} \cup \set{U_b}\) cover \(X\).
+So each set \(K_a\) is covered by these, and so covered by finitely many of these.
+But then those finitely many cover \(K \subset K_a\).
+So \(K\) is compact.
+Suppose that \(K\) is empty.
+The open sets \(W_b \defeq X-K_b\) cover \(X\).
+Each set \(K_a\) is compact, so finitely many \(W_b\) cover \(K_a\), say \(W_{b_1}, \dots, W_{b_n}\).
+So \(W_a, W_{b_1}, \dots, W_{b_n}\) covers \(X\).
+So their complements \(K_a, K_{b_1},\dots,K_{b_n}\) intersect in an empty set.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:topology:not.Hausdorff.compact.intersection}.}
+Let \(X=\set{0,1,2,\dots}\cup\{\infty,\infty'\}\), where a subset \(U\subseteq X\) is open just when either \(U\subseteq\set{0,1,2,\dots}\) or \(X\setminus U\) is finite.  Then \(A=\set{0,1,2,\dots}\cup\{\infty\}\) and \(B=\set{0,1,2,\dots}\cup\{\infty'\}\) are both compact.
+But \(A\cap B=\set{0,1,2,\dots}\) has the discrete topology and is not compact.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:compact.sets:slightly.enlarge}.}
+Every point \(x\) of \(X\) lies in the interior \(U\) of a compact set \(\bar{U} \subset X\).
+So \(K\) is covered by such interiors.
+Take a finite subcover \(U_1, U_2,\dots, U_k\) and let \(V\defeq U_1 \cup \dots \cup U_k\), so \(\bar{V} \subset \bar{U}_1 \cup \dots \cup \bar{U}_k\) is compact.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:local.cptness}.}
+If \(X\) has a basis of precompact open sets, then every point of \(X\) lies in one of them.
+If every point of \(X\) lies in a precompact open set, then those open sets cover \(X\), so \(X\) is locally compact.
+Suppose that \(X\) is locally compact.
+Take a point \(x_0\in X\).
+So \(x_0\) lies in one of our \(X_a\) open sets lying in a compact set, and hence (by Hausdorffness!) with compact closure \(\bar{X}_a\).
+Every open set \(U\) around \(x_0\) contains \(U\cap X_a\), which has compact closure, hence a basis of precompact open sets.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:closed.open.LCH}.}
+We know the subsets of a Hausdorff space are Hausdorff.
+If \(U\subseteq X\) is open, every point of \(U\) lies in an open set with compact closure inside \(U\), so \(U\) is locally compact Hausdorff.
+If \(A\subseteq X\) is closed, cover \(X\) in a basis of precompact open sets, and they intersect \(A\) in precompact open sets covering \(A\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:topological:compact.image}.}
+Take an open cover \(Y_a \subset Y\) of \(f(K)\).
+Let \(X_a=f^{-1} Y_a\).
+Then \(X_a\) form an open cover of \(f^{-1}f(K)\), and so of \(K\).
+Take a finite subcover of \(K\), say \(X_1, X_2, \dots, X_n \subset X\).
+Then the corresponding sets \(Y_1, Y_2, \dots, Y_n\) are an open cover of \(f(K)\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:1.point.u}.}
+If \(X',X''\) are two such spaces, define \(f\colon X'\to X''\) to be the identity on \(X\) and \(\infty\to\infty\).
+Take an open set \(U\subseteq X'\).
+If \(\infty\) is not in \(U\), \(f(U)=U\) is open since \(X\subset X''\) is embedded.
+If \(\infty\in U\), \(C\defeq X'-U=X-(U-\infty)\) is closed in \(X'\) so compact in \(X'\), therefore in \(X\) since \(X\subset X'\) is embedded, and so \(C\) is compact in \(X''\), and so closed since \(X''\) is Hausdorff.
+Hence \(U=X''-C\) is open.
+Therefore \(f\) is an open map, and so is \(f^{-1}\) by the same argument, so both are homeomorphisms.
+
+Following problem~\vref{problem:continuity:1.point}, let \(X'\) be the one point compactification of \(X\).
+We need to prove that \(X'\) is compact and Hausdorff and that \(X\subset X'\) is embedded.
+Trivially any open set \(U\subset X'\) intersects \(X\) in an open set, so the inclusion map \(X\to X'\) is continuous.
+Conversely, any open set in \(X\) is open in \(X'\), so the inclusion map is open, hence an embedding.
+
+Take an open cover of \(X'\) by open sets \(X'_a\).
+Each is either \(X'_a=(X-C_a)\cup\set{\infty}\) for a compact set \(C_a\subseteq X\) or \(X'_a=X_a\) for open sets \(X_a\subseteq X\).
+At least one of these \(X'_a\) contains \(\infty\), so is some \(X-C_{a_0}\).
+The sets \(X_a\) or \(X-C_a\) cover \(X'-\set{\infty}\) so cover \(X\).
+Because \(C_{a_0}\subseteq X\) is compact, \(C_{a_0}\) is covered by finitely many of these.
+So then \(X'=X\cup\set{\infty}\) is covered by those finitely many together with \((X-C_{a_0})\cup\set{\infty}\).
+
+To see that \(X'\) is Hausdorff, note that \(X\subset X'\) is embedded and Hausdorff.
+Take two points \(x,y\in X'\).
+If both are in \(X\), then they are housed off.
+So we can suppose that \(y=\infty\) and \(x\\in X\).
+Because \(X\) is locally compact, we can choose a compact set \(C\subseteq X\) containing an open set \(U\) around \(x\), and then \(U,(X-C)\cup\set{\infty}\) house \(x,\infty\).
+
+If \(X'\) satisfying these three conditions exists, we need to prove that \(X\) is locally compact and Hausdorff.
+But \(X\subset X'\) is embedded in a Hausdorff space, so Hausdorff.
+Pick a point \(x\in X\) and houses in \(X'\): open sets \(U,V\subseteq X'\) so that \(x\in U\) and \(\infty\in V\) and \(U\cap V\) is empty.
+Then \(C=X'-V\) is closed in \(Y\) so compact, and so compact in \(X\), and contains \(U\).
+So \(X\) is locally compact.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:compactify.Rn}.}
+If we write a point \(p\) of the sphere \(S^n\subset\R{n+1}\) as
+\[
+p=
+\begin{pmatrix}
+a\\
+b
+\end{pmatrix}
+\]
+with \(a\in\R{n}\) and \(b\in\R{}\), then map
+\[
+y=\varpi(p)=\frac{a}{1-b}.
+\]
+The inverse map is
+\[
+p=\varpi^{-1}(y)=
+\begin{pmatrix}
+0\\
+1
+\end{pmatrix}
++
+\frac{1}{1+\norm{y}^2}
+\begin{pmatrix}
+2y\\
+-2
+\end{pmatrix}.
+\]
+So
+\[
+\varpi\colon S^n-\begin{pmatrix}
+0\\
+-1
+\end{pmatrix}
+\to\R{n}
+\]
+is a homeomorphism.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:closed.homeo}.}
+The image \(f(A)\) of a closed set \(A\subseteq X\) is closed in \(Y\) so closed \(f(X)\).
+Hence we can replace \(Y\) by \(f(X)\) and assume the map is a bijection.
+Closed sets have closed images.
+Open sets have open images by taking complements.
+But then for \(f^{-1}\colon Y\to X\), the \(f^{-1}\)-preimages of open sets are just exactly the \(f\)-images, so open.
+So \(f^{-1}\) is continuous.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:proper.test}.}
+Suppose (a) and (b).
+Pick a compact set \(K\subseteq Y\) and an open cover \(U_{\alpha}\subset X\) of \(f^{-1}K\).
+Pick a point \(y_0\in Y\).
+Choose finitely many open sets \(U_{\alpha_i}\subseteq X\) covering \(f^{-1}\set{y_0}\); let \(U\) be their union.
+Check that \(y_0\) belongs to
+\[
+W\defeq Y-f(X-U)
+\]
+which is open since \(f\) is closed.
+Note that \(f^{-1}W\subset U\).
+For each \(y_0\in Y\), there is some such open set \(W\).
+Cover \(K\) by finitely many such \(W\), say \(W_j\), each arising as
+\[
+W_j=Y-f(X-U_j),
+\]
+from some open set \(U_j\subset X\) which itself is a finite union of open sets \(U_{\alpha_i}\) on \(X\).
+So \(f^{-1}K\) lies inside the union of the various \(f^{-1}W_j\), each of which lies in its \(U_j\).
+So \(f^{-1}K\) lies in a finite union of \(U_{\alpha_i}\) sets.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:compact.proper}.}
+Take a compact set \(K\subseteq Y\).
+Since \(Y\) is Hausdorff, \(K\) is closed.
+Take an open cover of \(f^{-1}K\) by open sets \(X_a\); add in one more open set \(X_0=X-f^{-1}K\) to give an open cover of \(X\).
+Take a finite subcover of \(X\); throw away \(X_0\) to give a finite subcover of \(f^{-1}K\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:quotient.On}.}
+The firs problem is to use linear algebra to prove that any matrix \(A\in Y\) arises as a \emph{Gram matrix}
+\[
+A=\varphi(v_1,\dots,v_n),
+\]
+where \(\varphi\) is the map giving \(A_{ij}=\ip{v_i}{v_j}\).
+For this, you can use induction on dimension.
+The second problem is to show that this Gram matrix uniquely determines the vectors \(v_1,\dots,v_n\) up to orthogonal linear transformation.
+Hence the map \(\varphi\) associating to vectors their Gram matrix is an injection modulo the action of the orthogonal group.
+The third problem is to prove that every point \(A\in Y\) lies in the interior of the image of a compact set of choices of vectors \(v_1,\dots,v_n\); but this follows from taking all of the vectors to lie in some large enough ball in \(\R{n}\), so that every Gram matrix whose diagonals are bounded by the radius of that ball lies in the image of that set.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:continuity:build.sphere}.}
+  If we let \(t=\pi |x|\) then \(|f(x)|^2=\cos^2 t + \sin^2 t=1\), so \(f\) is valued in the unit sphere \(Y\).
+  Continuity is clear except when \(|x| \to 0\), but then the fact that \(\sin' t=\cos t\) tells us that
+  \[
+  \frac{\sin t}{t}
+  \]
+  is continuous with
+  \[
+  1 = \lim_{t \to 0} \frac{\sin t}{t}
+  \]
+  by L'Hôpital's rule.
+  Write
+\[
+f(x)=
+\begin{cases}
+\left(\cos(\pi |x|), \frac{\sin(\pi |x|)}{|x|}x\right), & \text{ if \(|x|\ne 0\)}, \\
+(1,0), & \text{ if \(|x|=0\).}
+\end{cases}
+\]
+to see that \(f(x) \to (1,0)\) as \(|x| \to 0\), continuity.
+  Clearly \(f(0)=(1,0)\) and, if \(|x|=1\), then \(f(x)=(-1,0)\).
+  Since \(0 \le \pi|x| \le 1\),  if \(f(x)=(-1,0)\) then \(\cos(\pi|x|)=-1\) and \(\sin(\pi|x|)=0\) and so \(\pi|x|=\pi\), i.e. \(|x|=1\).
+  If \(x, y \in X\) and \(|x|<1\) and \(|y|<1\) and if \(f(x)=f(y)\) then
+  \[
+  \cos(\pi|x|)=\cos(\pi|y|)
+  \]
+  so \(0\le |x|=|y| < 1\).
+  But then also
+  \[
+  \sin(\pi|x|)x=\sin(\pi|y|)y
+  \]
+  and \(\sin(\pi|x|) \ne 0\) so \(x=y\).
+  Hence \(f\) is continuous and 1-1.
+  Since \(X\) is compact and \(Y\) is Hausdorff and \(f\) is onto, \(f\) identifies \(Y\) with the quotient of \(X\) by the map, i.e. with the closed ball with its boundary glued to a single point.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:reparam}.}
+Let \(F_s(t)=x((1-s)t+s\tau(t))\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:zero.three}.}
+Suppose that \(U_Y \subset Y\) is an evenly covered open set near \(1 \in Y\).
+Write each point of \(Y\) as \(w = u+iv \in Y\).
+Then \(U_Y\) contains a connected open set near \(1 \in Y\), say the ``interval'' \(-\varepsilon < v < \varepsilon\).
+Since \(U_Y\) is evenly covered, so is this ``interval''.
+The preimage of this ``interval'' is a union of 4 open intervals:
+\[
+(0,\delta)
+\cup (1-\delta,1+\delta)
+\cup (2-\delta,2+\delta)
+\cup (3-\delta,3)
+\]
+where
+\[
+\delta = \frac{\sin^{-1} \varepsilon}{2 \pi}.
+\]
+Any sheet over our open set is homeomorphic so also path connected, so lies inside one of these 4 intervals.
+But no open subset of the first interval maps onto our ``interval'' as the map takes on values \(u+iv\) with \(0 < v < \varepsilon\) there.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:discrete.fiber}.}
+Pick an evenly covered open set \(U_{y_0} \subset Y\) containing \(y_0\).
+Every point \(x_0 \in X_{y_0}\) lies in a sheet, say \(U_{x_0}\), over \(U_{y_0}\).
+Take two distinct points \(x_0, x_1 \in X_{y_0}\).
+The sheets \(U_{x_0}\) and \(U_{x_1}\) are disjoint so \(x_1\) is not in \(U_{x_0}\) and \(x_0\) is not in \(U_{x_1}\).
+Hence \(X_{y_0} \cap U_{x_0} = \set{x_0}\).
+Take any subset \(S \subset X_{y_0}\).
+Then
+\[
+S = X_{y_0} \cap \bigcup_{x \in S} U_{x}
+\]
+is the intersection of \(X_{y_0}\) with an open subset
+\[
+\bigcup_{x \in S} U_{x} \subset X,
+\]
+so is open inside \(X_{y_0}\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:Hausdorfficity}.}
+Suppose that \(Y\) is Hausdorff.
+Take distinct points \(x_1, x_2\) of \(X\).
+Let \(y_1=f(x_1)\) and \(y_2=f(x_2)\).
+
+Suppose that \(y_1 \ne y_2\).
+Take disjoint open sets \(U_1, U_2 \subset Y\) so that \(y_1 \in U_1\) and \(y_2 \in U_2\).
+Then \(f^{-1}U_1, f^{-1}U_2 \subset X\) are disjoint open sets so that \(x_1 \in f^{-1}U_1\) and \(x_2 \in f^{-1}U_2\).
+
+Suppose that \(y_1 = y_2\).
+Take an evenly covered open set \(U \subset Y\) containing \(y_1\).
+Every point \(x_1 \in X_{y_0}\) lies in a sheet, say \(U_{x_1}\), over \(U\).
+The sheets \(U_{x_1}\) and \(U_{x_2}\) are disjoint open sets.
+
+Now instead suppose that \(X\) is Hausdorff.
+Take distinct points \(y_1, y_2\) in \(Y\).
+Take two points \(x_1, x_2\) in \(X\) so that \(y_1=f(x_1)\) and \(y_2=f(x_2)\).
+Pick evenly covered open sets \(U_{y_1}\) and \(U_{y_2}\) around \(y_1\) and \(y_2\).
+Pick disjoint open sets \(W_{x_1}\) and \(W_{x_2}\) around \(x_1\) and \(x_2\).
+Let \(U_{x_1}=W_{x_1} \cap f^{-1} U_{y_1}\).
+Then \(f\) is a homeomorphism of \(U_{x_1}\) to its image inside \(U_{y_1}\); call its image \(V_{y_1}\).
+Similarly define \(V_{y_2}\).
+Because \(f\) homeomorphically maps \(U_{x_1}\) to \(V_{y_1}\), \(V_{y_1}\) is an open set in \(Y\).
+The sets \(V_{y_1}\) and \(V_{y_2}\) are disjoint since they are images of disjoint open sets in \(X\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:compact}.}
+Take a point \(q_0\in Q\).
+Because \(f\) is proper, the fiber \(P_{q_0} \defeq f^{-1}\Set{q_0}\) is compact.
+Because \(f\) is a local diffeomorphism, each point \(p_0 \in P_{q_0}\) lies in an open set \(U_{p_0} \subset P\) taken by \(f\) diffeomorphically to a neighborhood  \(U_{q_0} \subset Q\).
+The set \(P_{q_0}\) intersects \(U_{p_0}\) in a set taken by \(f\) to \(\Set{q_0}\), so just the single point \(p_0\).
+Therefore every point \(p_0 \in P_{q_0}\) lies an open set \(U_{p_0}\) containing only \(p_0\), so \(P_{q_0}\) is a discrete set of points.
+Being compact, \(P_{q_0}\) is therefore a finite set of points, say
+\[
+P_{q_0} = \Set{p_1, p_2, \dots, p_n},
+\]
+with each point \(p_j\) lying in an open set \(U_{p_j}\) taken diffeomorphically to some open set
+\[
+f\of{U_{p_j}} \subset Q
+\]
+around \(q_0\).
+Since there are finitely many such open sets, their intersection is open; call it \(U_{q_0}\).
+Then replace \(U_{p_j}\) by
+\[
+U_{p_j} \cap f^{-1}U_{q_0}
+\]
+so we can arrange that \(f\) takes each of the open sets
+\[
+U_{p_1}, U_{p_2}, \dots, U_{p_n}
+\]
+diffeomorphically to \(U_{q_0}\).
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:universal.property}.}
+If \(X\) is a universal covering space, then the map \(X \to Y\) lifts to a map \(X \to Z\) by proposition~\vref{proposition:lift.map}.
+
+Take a covering map \((X,x_0) \to (Y,y_0)\) so that every other covering map \((Z,z_0) \to (Y,y_0)\) has a unique covering map \((X,x_0) \to (Z,z_0)\) making a commutative diagram
+\DeltaCommutativeDiagram{X}{Y}{Z}
+Take a universal covering map \((Z,z_0) \to (Y,y_0)\).
+Take the unique covering map described above.
+Any loop in \(X\) maps into \(Z\), where it is homotopic to a constant map.
+Map that homotopy into \(Y\), and then lift the curves of that homotopy up to curves in \(X\), which are loops by taking the ``endpoint of the lift'' mapping.
+So then \(X\) is simply connected, i.e. a universal covering map.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:unique.ucs}.}
+By problem~\vref{problem:covering.spaces:universal.property}, there are unique morphisms \((X_1,x_1) \to (X_2,x_2)\) and \((X_2,x_2) \to (X_1,x_1)\).
+The composition of these a morphism \(X_1 \to X_1\).
+Again by problem~\vref{problem:covering.spaces:universal.property}, there is a unique such morphism.
+But the identity map is a morphism.
+So \(X_1 \to X_2\) composes with \(X_2 \to X_1\) to give the identity map.
+Swapping the roles of \(X_1\) and \(X_2\), the same is true for the composition in the other order.
+Therefore the two morphisms are inverses of each other.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:Rn}.}
+By hypothesis, for any point \(y_0 \in \R{n}\), the fiber \(f^{-1}\set{y_0}\) is bounded, but also closed, so compact.
+But around each point \(x_0 \in f^{-1}\set{y_0}\), \(f\) is a local diffeomorphism, so \(x_0\) is isolated in \(f^{-1}\set{y_0}\).
+So \(f^{-1}\set{y_0}\) is discrete and compact, so finite, say equal to \(\set{x_1,x_2,\dots,x_N}\).
+Take a small enough open set around each \(x_i\) so that \(f\) is a diffeomorphism on that open set.
+Inside each, take a compact set containing a neighborhood of \(x_i\), and take the images of those compact sets.
+Because \(f\) is a local diffeomorphism, each of these images contains some relatively compact open neighborhood of \(y_0\).
+So their intersection does as well.
+But then that open neighborhood is evenly covered.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:R.cov}.}
+Consider the fundamental group action, a covering group action on \(\R{}\).
+Every orbit is discrete.
+Pick some \(t_0\in\R{}\).
+It has a discrete orbit: some \(t_i\in\R{}\), which we can write it order \(t_i<t_{i+1}\).
+Each element of the group is uniquely determined by how it maps any one point, since they act without fixed points.
+Define elements \(\gamma_i\) by \(\gamma_i(t_0)=t_i\).
+Define a group operation on these \(t_i\), isomorphic to the fundamental group, by \(t_i+t_j=t_k\) if \(\gamma_j(\gamma_i(t_0))=\gamma_k(t_0)\).
+
+Each element of the fundamental group is a homeomorphism of \(\R{}\), so an increasing or decreasing proper map \(\R{}\to\R{}\).
+If decreasing, it has a fixed point by the intermediate value theorem, so it is an increasing function, so preserves the ordering of the \(t_i\).
+Hence \(t_j\) takes \(t_0\mapsto t_0+t_j=t_j\), and so sends \(t_1\) to \(t_{j+1}\), and so on.
+Hence the fundamental group is isomorphic to \(\Z{}\).
+Each interval \([t_i,t_{i+1}]\) is mapped to the quotient space injectivity except at the ends, so quotients to \(S^1\), an bijective continuous map from a compact Hausdorff space, so a homeomorphism by theorem~\vref{theorem:continuous.bijection}.
+\vspace \smallskipamount \newparagraph \noindent \textbf {\ref{problem:covering.spaces:lifts}.}
+Suppose that $\tilde{X}\xrightarrow{\psi}\tilde{X}$ is the lift $\psi=\tilde\varphi$
+of a homeomorphism $X\xrightarrow{\varphi}X$.
+Pick a point \(x_0\in X\).
+The lift is defined by: each point \(\tilde{x}\in\tilde{X}\) is a homotopy class, relative to end points, of a path \(x(t)\) starting at some point \(x_0\in X\).
+So then this path determines a path \(\varphi(x(t))\) from \(\varphi(x_0)\), and \(\tilde\varphi(\tilde{x}):=\varphi(x(1))\).
+It is clear that the lift \(\tilde\varphi\) is:
+\begin{itemize}
+\item
+onto, because \(\varphi\) is onto and \(X\) is path connected and
+\item
+injective because we can reverse it by applying \(\varphi^{-1}\) to our paths and
+\item
+a local homeomorphism because it is locally identified with \(\varphi\).
+\end{itemize}
+Each loop \(\gamma\) from \(x_0\) to \(x_0\) composes with \(\varphi\) to give another loop \(\varphi_*\gamma\), an automorphism of \(\pi_1(X,x_0)\).
+
+Suppose that $\tilde{X}\xrightarrow{\psi}\tilde{X}$ is a homeomorphism and there is a group automorphism
+\(
+\gamma \in \fundamentalGroup{X}\mapsto\gamma'\in\fundamentalGroup{X}
+\)
+so that $\psi \circ \gamma = \gamma' \circ \psi$.
+Pick a point \(x_0\in X\) and a point \(\tilde{x}_0\in\tilde{X}\) above it.
+Quotienting \(\psi\) by deck transformations gives a map \(X\xrightarrow{\varphi}X\), a local homeomorphism because it is locally identified with \(\psi\).
+The map \(\varphi\) is injective, because \(\psi(x)=\gamma\psi(y)\) implies \(y=\alpha x\) if \(\alpha'=\gamma\).
+The map \(\varphi\) is onto because \(\psi\) is.
+Clearly \(\psi\) lifts \(\varphi\).

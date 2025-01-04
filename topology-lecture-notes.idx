@@ -1,0 +1,204 @@
+\indexentry{open!set!Zariski|FancyIndexEntry}{1}
+\indexentry{Zariski!topology|FancyIndexEntry}{1}
+\indexentry{topology!Zariski|FancyIndexEntry}{1}
+\indexentry{Zariski!open set|FancyIndexEntry}{1}
+\indexentry{topology|FancyIndexEntry}{1}
+\indexentry{open!set|FancyIndexEntry}{1}
+\indexentry{set!open|FancyIndexEntry}{1}
+\indexentry{space!topological|FancyIndexEntry}{1}
+\indexentry{topological space|FancyIndexEntry}{1}
+\indexentry{point|FancyIndexEntry}{1}
+\indexentry{topology!discrete|FancyIndexEntry}{2}
+\indexentry{discrete!topology|FancyIndexEntry}{2}
+\indexentry{topology!indiscrete|FancyIndexEntry}{2}
+\indexentry{indiscrete!topology|FancyIndexEntry}{2}
+\indexentry{subspace!topology|FancyIndexEntry}{2}
+\indexentry{topology!subspace|FancyIndexEntry}{2}
+\indexentry{cofinite topology|FancyIndexEntry}{3}
+\indexentry{topology!cofinite|FancyIndexEntry}{3}
+\indexentry{complement|FancyIndexEntry}{3}
+\indexentry{closed!set|FancyIndexEntry}{3}
+\indexentry{set!closed|FancyIndexEntry}{3}
+\indexentry{closure|FancyIndexEntry}{4}
+\indexentry{neighborhood|FancyIndexEntry}{4}
+\indexentry{basis!topology|FancyIndexEntry}{4}
+\indexentry{topology!basis|FancyIndexEntry}{4}
+\indexentry{generated|FancyIndexEntry}{5}
+\indexentry{spanned|FancyIndexEntry}{5}
+\indexentry{interior|FancyIndexEntry}{5}
+\indexentry{exterior|FancyIndexEntry}{5}
+\indexentry{boundary|FancyIndexEntry}{5}
+\indexentry{dense|FancyIndexEntry}{5}
+\indexentry{half-open topology|FancyIndexEntry}{6}
+\indexentry{topology!half-open|FancyIndexEntry}{6}
+\indexentry{topology!product|FancyIndexEntry}{7}
+\indexentry{product!toplogy|FancyIndexEntry}{7}
+\indexentry{topology!subspace|FancyIndexEntry}{8}
+\indexentry{subspace!topology|FancyIndexEntry}{8}
+\indexentry{locally!closed|FancyIndexEntry}{9}
+\indexentry{closed!locally|FancyIndexEntry}{9}
+\indexentry{disjoint union|FancyIndexEntry}{9}
+\indexentry{housed off|FancyIndexEntry}{9}
+\indexentry{Hausdorff|FancyIndexEntry}{9}
+\indexentry{diagonal|FancyIndexEntry}{10}
+\indexentry{convergence|FancyIndexEntry}{10}
+\indexentry{open!cover|FancyIndexEntry}{11}
+\indexentry{cover!open|FancyIndexEntry}{11}
+\indexentry{compact|FancyIndexEntry}{11}
+\indexentry{connected|FancyIndexEntry}{12}
+\indexentry{arithmetic progression|FancyIndexEntry}{13}
+\indexentry{topology!Golomb|FancyIndexEntry}{13}
+\indexentry{Golomb topology|FancyIndexEntry}{13}
+\indexentry{connected component|FancyIndexEntry}{13}
+\indexentry{component!connected|FancyIndexEntry}{13}
+\indexentry{idempotent|FancyIndexEntry}{13}
+\indexentry{path connected|FancyIndexEntry}{13}
+\indexentry{path component|FancyIndexEntry}{13}
+\indexentry{component!path|FancyIndexEntry}{13}
+\indexentry{locally path connected|FancyIndexEntry}{14}
+\indexentry{path connected!locally|FancyIndexEntry}{14}
+\indexentry{everywhere dense|FancyIndexEntry}{14}
+\indexentry{dense!everywhere|FancyIndexEntry}{14}
+\indexentry{nowhere dense|FancyIndexEntry}{14}
+\indexentry{dense!nowhere|FancyIndexEntry}{14}
+\indexentry{comeager|FancyIndexEntry}{14}
+\indexentry{Baire space|FancyIndexEntry}{14}
+\indexentry{locally!compact|FancyIndexEntry}{14}
+\indexentry{compact!locally|FancyIndexEntry}{14}
+\indexentry{Baire category theorem|FancyIndexEntry}{15}
+\indexentry{theorem!Baire category|FancyIndexEntry}{15}
+\indexentry{generic|FancyIndexEntry}{15}
+\indexentry{precompact|FancyIndexEntry}{16}
+\indexentry{preimage|FancyIndexEntry}{17}
+\indexentry{continuous|FancyIndexEntry}{17}
+\indexentry{Zariski!topology|hyperpage}{17}
+\indexentry{topology!Zariski|hyperpage}{17}
+\indexentry{Zariski!topology|hyperpage}{17}
+\indexentry{topology!Zariski|hyperpage}{17}
+\indexentry{Zariski!topology|hyperpage}{17}
+\indexentry{topology!Zariski|hyperpage}{17}
+\indexentry{Zariski!topology|hyperpage}{18}
+\indexentry{topology!Zariski|hyperpage}{18}
+\indexentry{restriction|FancyIndexEntry}{18}
+\indexentry{projection|FancyIndexEntry}{18}
+\indexentry{homeomorphism|FancyIndexEntry}{19}
+\indexentry{homeomorphic|FancyIndexEntry}{19}
+\indexentry{proper!map|FancyIndexEntry}{20}
+\indexentry{open map|FancyIndexEntry}{21}
+\indexentry{map!open|FancyIndexEntry}{21}
+\indexentry{closed map|FancyIndexEntry}{21}
+\indexentry{map!closed|FancyIndexEntry}{21}
+\indexentry{Moebius strip@M\"obius strip|FancyIndexEntry}{22}
+\indexentry{quotient!topology|FancyIndexEntry}{23}
+\indexentry{topology!quotient|FancyIndexEntry}{23}
+\indexentry{pointed space|FancyIndexEntry}{24}
+\indexentry{space!with marked point|FancyIndexEntry}{24}
+\indexentry{join|FancyIndexEntry}{24}
+\indexentry{bouquet of circles|FancyIndexEntry}{24}
+\indexentry{quotient|FancyIndexEntry}{24}
+\indexentry{quotient!map|FancyIndexEntry}{24}
+\indexentry{strict map|FancyIndexEntry}{25}
+\indexentry{map!strict|FancyIndexEntry}{25}
+\indexentry{Moebius strip@M\"obius strip|FancyIndexEntry}{26}
+\indexentry{Klein bottle|FancyIndexEntry}{26}
+\indexentry{real!projective space|FancyIndexEntry}{27}
+\indexentry{complex!projective space|FancyIndexEntry}{27}
+\indexentry{quaternionic projective space|FancyIndexEntry}{27}
+\indexentry{homotopic|FancyIndexEntry}{29}
+\indexentry{homotopy|FancyIndexEntry}{29}
+\indexentry{homotopy!relative|FancyIndexEntry}{29}
+\indexentry{relative homotopy|FancyIndexEntry}{29}
+\indexentry{null homotopic|FancyIndexEntry}{29}
+\indexentry{path|FancyIndexEntry}{29}
+\indexentry{reparameterisation|FancyIndexEntry}{29}
+\indexentry{manifold|FancyIndexEntry}{30}
+\indexentry{manifold with corners|FancyIndexEntry}{30}
+\indexentry{surface|FancyIndexEntry}{30}
+\indexentry{loop|FancyIndexEntry}{31}
+\indexentry{fundamental!group|FancyIndexEntry}{31}
+\indexentry{path connected|FancyIndexEntry}{32}
+\indexentry{connected!path|FancyIndexEntry}{32}
+\indexentry{simply connected|FancyIndexEntry}{32}
+\indexentry{connected!simply|FancyIndexEntry}{32}
+\indexentry{star shaped|FancyIndexEntry}{32}
+\indexentry{tree|FancyIndexEntry}{33}
+\indexentry{maximal subtree|FancyIndexEntry}{33}
+\indexentry{diffeomorphism|FancyIndexEntry}{34}
+\indexentry{diagram|FancyIndexEntry}{35}
+\indexentry{commutative!diagram|FancyIndexEntry}{35}
+\indexentry{diagram!commutative|FancyIndexEntry}{35}
+\indexentry{homotopy!equivalence|FancyIndexEntry}{35}
+\indexentry{theorem!fundamental, of algebra|FancyIndexEntry}{36}
+\indexentry{algebra!fundamental theorem of|FancyIndexEntry}{36}
+\indexentry{fundamental!theorem of algebra|FancyIndexEntry}{36}
+\indexentry{Alexander's horned!sphere|FancyIndexEntry}{37}
+\indexentry{Alexander's horned!ball|FancyIndexEntry}{37}
+\indexentry{evenly covered|FancyIndexEntry}{39}
+\indexentry{sheet|FancyIndexEntry}{39}
+\indexentry{covering map|FancyIndexEntry}{39}
+\indexentry{fiber|FancyIndexEntry}{41}
+\indexentry{theorem!fundamental, of algebra|FancyIndexEntry}{41}
+\indexentry{algebra!fundamental theorem of|FancyIndexEntry}{41}
+\indexentry{fundamental!theorem of algebra|FancyIndexEntry}{41}
+\indexentry{group!action|FancyIndexEntry}{42}
+\indexentry{action!group|FancyIndexEntry}{42}
+\indexentry{free!group action|FancyIndexEntry}{42}
+\indexentry{action!group!free|FancyIndexEntry}{42}
+\indexentry{group!action!free|FancyIndexEntry}{42}
+\indexentry{covering!group action|FancyIndexEntry}{42}
+\indexentry{action!covering|FancyIndexEntry}{42}
+\indexentry{group! action!covering|FancyIndexEntry}{42}
+\indexentry{proper!group action|FancyIndexEntry}{42}
+\indexentry{group!action!proper|FancyIndexEntry}{42}
+\indexentry{action!group!proper|FancyIndexEntry}{42}
+\indexentry{orbit|FancyIndexEntry}{42}
+\indexentry{quotient!space|FancyIndexEntry}{42}
+\indexentry{space!quotient|FancyIndexEntry}{42}
+\indexentry{action!group!by isometries|FancyIndexEntry}{44}
+\indexentry{isometry!action|FancyIndexEntry}{44}
+\indexentry{group!action!by isometries|FancyIndexEntry}{44}
+\indexentry{Moebius strip@M\"obius strip|FancyIndexEntry}{45}
+\indexentry{Klein bottle|FancyIndexEntry}{45}
+\indexentry{lift|FancyIndexEntry}{46}
+\indexentry{logarithm|FancyIndexEntry}{49}
+\indexentry{monodromy|FancyIndexEntry}{49}
+\indexentry{covering space!universal|FancyIndexEntry}{49}
+\indexentry{universal covering space|FancyIndexEntry}{49}
+\indexentry{space!universal covering|FancyIndexEntry}{49}
+\indexentry{morphism!of covering spaces|FancyIndexEntry}{50}
+\indexentry{covering space!morphism|FancyIndexEntry}{50}
+\indexentry{isomorphism!of covering spaces|FancyIndexEntry}{50}
+\indexentry{covering space!isomorphism|FancyIndexEntry}{50}
+\indexentry{Klein bottle|hyperpage}{52}
+\indexentry{deck transformation|FancyIndexEntry}{53}
+\indexentry{regular!covering space|FancyIndexEntry}{54}
+\indexentry{covering space!regular|FancyIndexEntry}{54}
+\indexentry{van~Kampen's theorem|FancyIndexEntry}{55}
+\indexentry{theorem!van~Kampen|FancyIndexEntry}{55}
+\indexentry{word|FancyIndexEntry}{56}
+\indexentry{alphabet|FancyIndexEntry}{56}
+\indexentry{reduce|FancyIndexEntry}{56}
+\indexentry{group!free|FancyIndexEntry}{56}
+\indexentry{free!group|FancyIndexEntry}{56}
+\indexentry{concatentation|FancyIndexEntry}{56}
+\indexentry{presentation|FancyIndexEntry}{56}
+\indexentry{finitely presented|FancyIndexEntry}{56}
+\indexentry{free!product|FancyIndexEntry}{58}
+\indexentry{word|FancyIndexEntry}{58}
+\indexentry{word!reduced|FancyIndexEntry}{58}
+\indexentry{reduced word|FancyIndexEntry}{58}
+\indexentry{amalgamation|FancyIndexEntry}{59}
+\indexentry{van~Kampen's theorem|FancyIndexEntry}{59}
+\indexentry{theorem!van~Kampen|FancyIndexEntry}{59}
+\indexentry{contraction|FancyIndexEntry}{62}
+\indexentry{contractible|FancyIndexEntry}{62}
+\indexentry{lift|FancyIndexEntry}{62}
+\indexentry{Serre fibration|FancyIndexEntry}{62}
+\indexentry{projection map|FancyIndexEntry}{64}
+\indexentry{fiber bundle|FancyIndexEntry}{64}
+\indexentry{hex!board|FancyIndexEntry}{65}
+\indexentry{board!hex|FancyIndexEntry}{65}
+\indexentry{hex|FancyIndexEntry}{65}
+\indexentry{inward|FancyIndexEntry}{70}
+\indexentry{outward|FancyIndexEntry}{70}
+\indexentry{paper|hyperpage}{72}

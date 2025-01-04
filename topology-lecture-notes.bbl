@@ -1,0 +1,85 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{10}
+
+\bibitem{MR705632}
+Mark~Anthony Armstrong, \emph{Basic topology}, Undergraduate Texts in
+  Mathematics, Springer-Verlag, New York-Berlin, 1983, Corrected reprint of the
+  1979 original. \MR{705632}
+
+\bibitem{MR1700700}
+Glen~E. Bredon, \emph{Topology and geometry}, Graduate Texts in Mathematics,
+  vol. 139, Springer-Verlag, New York, 1997, Corrected third printing of the
+  1993 original. \MR{1700700}
+
+\bibitem{MR1867354}
+Allen Hatcher, \emph{Algebraic topology}, Cambridge University Press,
+  Cambridge, 2002. \MR{1867354}
+
+\bibitem{Hirsch:1994}
+Morris~W. Hirsch, \emph{Differential topology}, Graduate Texts in Mathematics,
+  vol.~33, Springer-Verlag, New York, 1994, Corrected reprint of the 1976
+  original. \MR{1336822}
+
+\bibitem{MR2483686}
+Stephen Huggett and David Jordan, \emph{A topological aperitif}, revised ed.,
+  Springer-Verlag London, Ltd., London, 2009, With a foreword by Roger Penrose.
+  \MR{2483686}
+
+\bibitem{MR734483}
+Klaus J\"{a}nich, \emph{Topology}, Undergraduate Texts in Mathematics,
+  Springer-Verlag, New York, 1984, With a chapter by Theodor Br\"{o}cker,
+  Translated from the German by Silvio Levy. \MR{734483}
+
+\bibitem{MR2218695}
+John McCleary, \emph{A first course in topology}, Student Mathematical Library,
+  vol.~31, American Mathematical Society, Providence, RI, 2006, Continuity and
+  dimension. \MR{2218695}
+
+\bibitem{Milnor:1997}
+John~W. Milnor, \emph{Topology from the differentiable viewpoint}, Princeton
+  Landmarks in Mathematics, Princeton University Press, Princeton, NJ, 1997,
+  Based on notes by David W. Weaver, Revised reprint of the 1965 original.
+  \MR{1487640 (98h:57051)}
+
+\bibitem{MR3728284}
+James~R. Munkres, \emph{Topology}, Prentice Hall, Inc., Upper Saddle River, NJ,
+  2000, Second edition of [ MR0464128]. \MR{3728284}
+
+\bibitem{MR2233951}
+V.~V. Prasolov, \emph{Elements of combinatorial and differential topology},
+  Graduate Studies in Mathematics, vol.~74, American Mathematical Society,
+  Providence, RI, 2006, Translated from the 2004 Russian original by Olga
+  Sipacheva. \MR{2233951}
+
+\bibitem{MR2313004}
+\bysame, \emph{Elements of homology theory}, Graduate Studies in Mathematics,
+  vol.~81, American Mathematical Society, Providence, RI, 2007, Translated from
+  the 2005 Russian original by Olga Sipacheva. \MR{2313004}
+
+\bibitem{MR2155623}
+Volker Runde, \emph{A taste of topology}, Universitext, Springer, New York,
+  2005. \MR{2155623}
+
+\bibitem{MR1679607}
+Hajime Sato, \emph{Algebraic topology: an intuitive approach}, Translations of
+  Mathematical Monographs, vol. 183, American Mathematical Society, Providence,
+  RI, 1999, Translated from the 1996 Japanese original by Kiki Hudson, Iwanami
+  Series in Modern Mathematics. \MR{1679607}
+
+\bibitem{MR1384994}
+John Stillwell, \emph{Poincar\'{e}, geometry and topology}, Henri
+  {P}oincar\'{e}: science et philosophie ({N}ancy, 1994), Publ.
+  Henri-Poincar\'{e}-Arch., Akademie Verlag, Berlin, 1996, pp.~231--240, 580.
+  \MR{1384994}
+
+\bibitem{MR2456045}
+Tammo tom Dieck, \emph{Algebraic topology}, EMS Textbooks in Mathematics,
+  European Mathematical Society (EMS), Z\"{u}rich, 2008. \MR{2456045}
+
+\end{thebibliography}

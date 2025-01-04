@@ -1,4 +1,4 @@
-\chapter{Covering Spaces}\label{chapter:covering.spaces}
+\chapter{Covering spaces}\label{chapter:covering.spaces}
 
 \section{Covering maps}
 A continuous map \(f \colon X \to Y\) of topological spaces \emph{evenly covers}\define{evenly covered}
@@ -176,6 +176,17 @@ and replace \(x\) by \(\lambda x\), we find \(x^2=y\).
 So every nonzero element of \(k\) has a square root, and so in particular, \(-1 \in \R{}\) has a square root in \(k\), so \(k\) contains \(\C{}\), and hence \(k=\C{}\).
 Note that we could pick \(k\) to be the splitting field of any real or complex polynomial.
 \end{proof}
+\begin{exampleAndImage}{5cm}
+The \emph{harmonic archipelago} is given by drawing the Hawaiian earring on the plane, and then raising up the plane to a hollow hill, of unit height, between each successive pair of rings, with diameter of each hill becoming successively smaller approaching zero.
+The limits of the hilltops are not in the archipelago, so it is not compact.
+We can continuously deform any loop, based at the limit point of those hills, around finitely many hills in finite time, but not around all of them, since a map from a compact set has compact image.
+The fundamental group is very complicated.
+The set of points to the right of some line in our picture is homeomorphic to disk, so identified with a disk in any connected covering space.
+Every connected covering space is thus a homeomorphism.
+Wild Topology, Creative Commons Attribution 4.0 International License.
+\tcblower
+\includegraphics[width=5cm]{ha}
+\end{exampleAndImage}
 
 \section{Quotients by group actions}
 An \emph{action}%
@@ -687,6 +698,24 @@ If the paths have the same endpoint, take a simply connected open set \(U\) cont
 If the open sets \(U_{[x_1]}\) and \(U_{[x_2]}\) are not disjoint, then they are equal (as we saw in the proof of theorem~\ref{theorem:existence.of.universal.cover}).
 The homeomorphism \(p \colon U_{[x_1]} \to U\) over the evenly covered open sets \(U\) then identifies the points \([x_1], [x_2] \in \tilde{X}\), so the points of \(\tilde{X}\) are not distinct.
 \end{proof}
+\begin{problem}{covering.spaces:R.cov}
+Prove that the only topological spaces with \(\R{}\) as a covering space are \(\R{}\) and \(S^1\).
+\end{problem}
+\begin{answer}{covering.spaces:R.cov}
+Consider the fundamental group action, a covering group action on \(\R{}\).
+Every orbit is discrete.
+Pick some \(t_0\in\R{}\).
+It has a discrete orbit: some \(t_i\in\R{}\), which we can write it order \(t_i<t_{i+1}\).
+Each element of the group is uniquely determined by how it maps any one point, since they act without fixed points.
+Define elements \(\gamma_i\) by \(\gamma_i(t_0)=t_i\).
+Define a group operation on these \(t_i\), isomorphic to the fundamental group, by \(t_i+t_j=t_k\) if \(\gamma_j(\gamma_i(t_0))=\gamma_k(t_0)\).
+
+Each element of the fundamental group is a homeomorphism of \(\R{}\), so an increasing or decreasing proper map \(\R{}\to\R{}\).
+If decreasing, it has a fixed point by the intermediate value theorem, so it is an increasing function, so preserves the ordering of the \(t_i\).
+Hence \(t_j\) takes \(t_0\mapsto t_0+t_j=t_j\), and so sends \(t_1\) to \(t_{j+1}\), and so on.
+Hence the fundamental group is isomorphic to \(\Z{}\).
+Each interval \([t_i,t_{i+1}]\) is mapped to the quotient space injectivity except at the ends, so quotients to \(S^1\), an bijective continuous map from a compact Hausdorff space, so a homeomorphism by theorem~\vref{theorem:continuous.bijection}.
+\end{answer}
 \begin{lemma}\label{lemma:covering.spaces.and.groups}
 Take a path connected and locally simply connected space \(X\).
 Every subgroup \(\Gamma \subset \fundamentalGroup{X}\) arises as the image of the fundamental group of a connected covering space \(X_{\Gamma} \to X\).
@@ -767,6 +796,42 @@ Explain why \(f\) is a covering map.
 Explain how to find the universal covering space \(\tilde{Y} \to Y\).
 Explain how the fundamental group of \(Y\) acts on \(\tilde{Y}\).
 \end{problem}
+\begin{problem}{covering.spaces:lifts}
+Prove that, for any path connected and locally simply connected topological space \(X\), a homeomorphism $\tilde{X}\xrightarrow{\psi}\tilde{X}$ is the lift $\psi=\tilde\varphi$
+of a homeomorphism $X\xrightarrow{\varphi}X$ just when there is a group automorphism 
+\(
+\gamma\in\fundamentalGroup{X}\mapsto\gamma'\in\fundamentalGroup{X}
+\)
+so that $\psi \circ \gamma = \gamma' \circ \psi$.
+\end{problem}
+\begin{answer}{covering.spaces:lifts}
+Suppose that $\tilde{X}\xrightarrow{\psi}\tilde{X}$ is the lift $\psi=\tilde\varphi$
+of a homeomorphism $X\xrightarrow{\varphi}X$.
+Pick a point \(x_0\in X\).
+The lift is defined by: each point \(\tilde{x}\in\tilde{X}\) is a homotopy class, relative to end points, of a path \(x(t)\) starting at some point \(x_0\in X\).
+So then this path determines a path \(\varphi(x(t))\) from \(\varphi(x_0)\), and \(\tilde\varphi(\tilde{x}):=\varphi(x(1))\).
+It is clear that the lift \(\tilde\varphi\) is:
+\begin{itemize}
+\item
+onto, because \(\varphi\) is onto and \(X\) is path connected and
+\item
+injective because we can reverse it by applying \(\varphi^{-1}\) to our paths and
+\item
+a local homeomorphism because it is locally identified with \(\varphi\).
+\end{itemize}
+Each loop \(\gamma\) from \(x_0\) to \(x_0\) composes with \(\varphi\) to give another loop \(\varphi_*\gamma\), an automorphism of \(\pi_1(X,x_0)\).
+
+Suppose that $\tilde{X}\xrightarrow{\psi}\tilde{X}$ is a homeomorphism and there is a group automorphism 
+\(
+\gamma \in \fundamentalGroup{X}\mapsto\gamma'\in\fundamentalGroup{X}
+\)
+so that $\psi \circ \gamma = \gamma' \circ \psi$.
+Pick a point \(x_0\in X\) and a point \(\tilde{x}_0\in\tilde{X}\) above it.
+Quotienting \(\psi\) by deck transformations gives a map \(X\xrightarrow{\varphi}X\), a local homeomorphism because it is locally identified with \(\psi\).
+The map \(\varphi\) is injective, because \(\psi(x)=\gamma\psi(y)\) implies \(y=\alpha x\) if \(\alpha'=\gamma\).
+The map \(\varphi\) is onto because \(\psi\) is.
+Clearly \(\psi\) lifts \(\varphi\).
+\end{answer}
 
 \section{Classification of regular covering spaces}
 A covering space \(X \to Y\) is \emph{regular}\define{regular!covering space}\define{covering space!regular} if the deck transformations act transitively on the fibers, i.e. the quotient is \(Y\).
@@ -1091,7 +1156,7 @@ Take two tori, poke holes in them, and join together along a tube; let \(X\) be 
 Each punctured torus is an open set \(X_1, X_2 \subset X\), and the tube is their intersection \(X_0=X_1 \cap X_2\).
 The tube \(X_0\) has fundamental group \(\pi_0=\Z{}\), and this includes into each fundamental group of each punctured torus as a small circle around the puncture.
 On each torus, the circle around the puncture is the product \(xyx^{-1}y^{-1}\), which of course vanishes once we close up the puncture.
-So if we glue two tori together, the resulting surface \(X\) of genus 2 has fundamental group 
+So if we glue two tori together, the resulting surface \(X\) of genus \(2\) has fundamental group 
 \[
 \left<x,y,X,Y|xyx^{-1}y^{-1}=XYX^{-1}Y^{-1}\right>.
 \]
@@ -1121,10 +1186,13 @@ g(2t-1,x_2,\dots,x_n), & \text{if \(\frac{1}{2} \le t\le 1\)},
 and \(\bar{f}(t,x_2,\dots,x_n)=f(1-t,x_2,\dots,x_n)\).
 If \(f \colon X \to Y\) is continuous, and \(y_0\defeq f(x_0)\), define \(f_* \colon \homotopyGroup{*}{X,x_0} \to \homotopyGroup{*}{Y,y_0}\) by \(f_*[g] = [f \circ g]\).
 
+A \emph{contraction}\define{contraction} of a topological space \(X\) to a point \(x_0\in X\) is a continuous map \(\varphi\colon X\times[0,1]\to X\) so that \(\varphi(x,0)=x\) and \(\varphi(x,1)=x_0\) for any \(x\in X\).
+A topological space \(X\) is \emph{contractible}\define{contractible} if it has a contraction.
+\begin{problem}{covering.space:contractible}
+Prove that every contractible space is connected and has trivial homotopy groups.
+\end{problem}
 Given a continuous map \(f \colon X \to Y\), a \emph{lift}\define{lift} of a continuous map \(g \colon Z \to Y\) is a continuous map \(\hat{g} \colon Z \to X\) so that \(f \circ \hat{g}=g\).
 A \emph{Serre fibration}\define{Serre fibration} is a continuous map \(f \colon X \to Y\) of topological spaces, so that for any box \(Z=[0,1]^n\) and continuous map \(g \colon Z \times [0,1] \to Y\), denoted \(g_t(z)\defeq g(z,t)\), every lift of \(g_0\) extends to a lift of \(g\).
-
-
 \begin{theorem}
 If \(f \colon X \to Y\) is a Serre fibration, then the obvious maps 
 \[

@@ -1,0 +1,294 @@
+\begin{theindex}
+
+  \item action
+    \subitem covering, \FancyIndexEntry{42}
+    \subitem group, \FancyIndexEntry{42}
+      \subsubitem by isometries, \FancyIndexEntry{44}
+      \subsubitem free, \FancyIndexEntry{42}
+      \subsubitem proper, \FancyIndexEntry{42}
+  \item Alexander's horned
+    \subitem ball, \FancyIndexEntry{37}
+    \subitem sphere, \FancyIndexEntry{37}
+  \item algebra
+    \subitem fundamental theorem of, \FancyIndexEntry{36}, 
+		\FancyIndexEntry{41}
+  \item alphabet, \FancyIndexEntry{56}
+  \item amalgamation, \FancyIndexEntry{59}
+  \item arithmetic progression, \FancyIndexEntry{13}
+
+  \indexspace
+
+  \item Baire category theorem, \FancyIndexEntry{15}
+  \item Baire space, \FancyIndexEntry{14}
+  \item basis
+    \subitem topology, \FancyIndexEntry{4}
+  \item board
+    \subitem hex, \FancyIndexEntry{65}
+  \item boundary, \FancyIndexEntry{5}
+  \item bouquet of circles, \FancyIndexEntry{24}
+
+  \indexspace
+
+  \item closed
+    \subitem locally, \FancyIndexEntry{9}
+    \subitem set, \FancyIndexEntry{3}
+  \item closed map, \FancyIndexEntry{21}
+  \item closure, \FancyIndexEntry{4}
+  \item cofinite topology, \FancyIndexEntry{3}
+  \item comeager, \FancyIndexEntry{14}
+  \item commutative
+    \subitem diagram, \FancyIndexEntry{35}
+  \item compact, \FancyIndexEntry{11}
+    \subitem locally, \FancyIndexEntry{14}
+  \item complement, \FancyIndexEntry{3}
+  \item complex
+    \subitem projective space, \FancyIndexEntry{27}
+  \item component
+    \subitem connected, \FancyIndexEntry{13}
+    \subitem path, \FancyIndexEntry{13}
+  \item concatentation, \FancyIndexEntry{56}
+  \item connected, \FancyIndexEntry{12}
+    \subitem path, \FancyIndexEntry{32}
+    \subitem simply, \FancyIndexEntry{32}
+  \item connected component, \FancyIndexEntry{13}
+  \item continuous, \FancyIndexEntry{17}
+  \item contractible, \FancyIndexEntry{62}
+  \item contraction, \FancyIndexEntry{62}
+  \item convergence, \FancyIndexEntry{10}
+  \item cover
+    \subitem open, \FancyIndexEntry{11}
+  \item covering
+    \subitem group action, \FancyIndexEntry{42}
+  \item covering map, \FancyIndexEntry{39}
+  \item covering space
+    \subitem isomorphism, \FancyIndexEntry{50}
+    \subitem morphism, \FancyIndexEntry{50}
+    \subitem regular, \FancyIndexEntry{54}
+    \subitem universal, \FancyIndexEntry{49}
+
+  \indexspace
+
+  \item deck transformation, \FancyIndexEntry{53}
+  \item dense, \FancyIndexEntry{5}
+    \subitem everywhere, \FancyIndexEntry{14}
+    \subitem nowhere, \FancyIndexEntry{14}
+  \item diagonal, \FancyIndexEntry{10}
+  \item diagram, \FancyIndexEntry{35}
+    \subitem commutative, \FancyIndexEntry{35}
+  \item diffeomorphism, \FancyIndexEntry{34}
+  \item discrete
+    \subitem topology, \FancyIndexEntry{2}
+  \item disjoint union, \FancyIndexEntry{9}
+
+  \indexspace
+
+  \item evenly covered, \FancyIndexEntry{39}
+  \item everywhere dense, \FancyIndexEntry{14}
+  \item exterior, \FancyIndexEntry{5}
+
+  \indexspace
+
+  \item fiber, \FancyIndexEntry{41}
+  \item fiber bundle, \FancyIndexEntry{64}
+  \item finitely presented, \FancyIndexEntry{56}
+  \item free
+    \subitem group, \FancyIndexEntry{56}
+    \subitem group action, \FancyIndexEntry{42}
+    \subitem product, \FancyIndexEntry{58}
+  \item fundamental
+    \subitem group, \FancyIndexEntry{31}
+    \subitem theorem of algebra, \FancyIndexEntry{36}, 
+		\FancyIndexEntry{41}
+
+  \indexspace
+
+  \item generated, \FancyIndexEntry{5}
+  \item generic, \FancyIndexEntry{15}
+  \item Golomb topology, \FancyIndexEntry{13}
+  \item group
+    \subitem  action
+      \subsubitem covering, \FancyIndexEntry{42}
+    \subitem action, \FancyIndexEntry{42}
+      \subsubitem by isometries, \FancyIndexEntry{44}
+      \subsubitem free, \FancyIndexEntry{42}
+      \subsubitem proper, \FancyIndexEntry{42}
+    \subitem free, \FancyIndexEntry{56}
+
+  \indexspace
+
+  \item half-open topology, \FancyIndexEntry{6}
+  \item Hausdorff, \FancyIndexEntry{9}
+  \item hex, \FancyIndexEntry{65}
+    \subitem board, \FancyIndexEntry{65}
+  \item homeomorphic, \FancyIndexEntry{19}
+  \item homeomorphism, \FancyIndexEntry{19}
+  \item homotopic, \FancyIndexEntry{29}
+  \item homotopy, \FancyIndexEntry{29}
+    \subitem equivalence, \FancyIndexEntry{35}
+    \subitem relative, \FancyIndexEntry{29}
+  \item housed off, \FancyIndexEntry{9}
+
+  \indexspace
+
+  \item idempotent, \FancyIndexEntry{13}
+  \item indiscrete
+    \subitem topology, \FancyIndexEntry{2}
+  \item interior, \FancyIndexEntry{5}
+  \item inward, \FancyIndexEntry{70}
+  \item isometry
+    \subitem action, \FancyIndexEntry{44}
+  \item isomorphism
+    \subitem of covering spaces, \FancyIndexEntry{50}
+
+  \indexspace
+
+  \item join, \FancyIndexEntry{24}
+
+  \indexspace
+
+  \item Klein bottle, \FancyIndexEntry{26}, \FancyIndexEntry{45}, 
+		\hyperpage{52}
+
+  \indexspace
+
+  \item lift, \FancyIndexEntry{46}, \FancyIndexEntry{62}
+  \item locally
+    \subitem closed, \FancyIndexEntry{9}
+    \subitem compact, \FancyIndexEntry{14}
+  \item locally path connected, \FancyIndexEntry{14}
+  \item logarithm, \FancyIndexEntry{49}
+  \item loop, \FancyIndexEntry{31}
+
+  \indexspace
+
+  \item manifold, \FancyIndexEntry{30}
+  \item manifold with corners, \FancyIndexEntry{30}
+  \item map
+    \subitem closed, \FancyIndexEntry{21}
+    \subitem open, \FancyIndexEntry{21}
+    \subitem strict, \FancyIndexEntry{25}
+  \item maximal subtree, \FancyIndexEntry{33}
+  \item M\"obius strip, \FancyIndexEntry{22}, \FancyIndexEntry{26}, 
+		\FancyIndexEntry{45}
+  \item monodromy, \FancyIndexEntry{49}
+  \item morphism
+    \subitem of covering spaces, \FancyIndexEntry{50}
+
+  \indexspace
+
+  \item neighborhood, \FancyIndexEntry{4}
+  \item nowhere dense, \FancyIndexEntry{14}
+  \item null homotopic, \FancyIndexEntry{29}
+
+  \indexspace
+
+  \item open
+    \subitem cover, \FancyIndexEntry{11}
+    \subitem set, \FancyIndexEntry{1}
+      \subsubitem Zariski, \FancyIndexEntry{1}
+  \item open map, \FancyIndexEntry{21}
+  \item orbit, \FancyIndexEntry{42}
+  \item outward, \FancyIndexEntry{70}
+
+  \indexspace
+
+  \item paper, \hyperpage{72}
+  \item path, \FancyIndexEntry{29}
+  \item path component, \FancyIndexEntry{13}
+  \item path connected, \FancyIndexEntry{13}, \FancyIndexEntry{32}
+    \subitem locally, \FancyIndexEntry{14}
+  \item point, \FancyIndexEntry{1}
+  \item pointed space, \FancyIndexEntry{24}
+  \item precompact, \FancyIndexEntry{16}
+  \item preimage, \FancyIndexEntry{17}
+  \item presentation, \FancyIndexEntry{56}
+  \item product
+    \subitem toplogy, \FancyIndexEntry{7}
+  \item projection, \FancyIndexEntry{18}
+  \item projection map, \FancyIndexEntry{64}
+  \item proper
+    \subitem group action, \FancyIndexEntry{42}
+    \subitem map, \FancyIndexEntry{20}
+
+  \indexspace
+
+  \item quaternionic projective space, \FancyIndexEntry{27}
+  \item quotient, \FancyIndexEntry{24}
+    \subitem map, \FancyIndexEntry{24}
+    \subitem space, \FancyIndexEntry{42}
+    \subitem topology, \FancyIndexEntry{23}
+
+  \indexspace
+
+  \item real
+    \subitem projective space, \FancyIndexEntry{27}
+  \item reduce, \FancyIndexEntry{56}
+  \item reduced word, \FancyIndexEntry{58}
+  \item regular
+    \subitem covering space, \FancyIndexEntry{54}
+  \item relative homotopy, \FancyIndexEntry{29}
+  \item reparameterisation, \FancyIndexEntry{29}
+  \item restriction, \FancyIndexEntry{18}
+
+  \indexspace
+
+  \item Serre fibration, \FancyIndexEntry{62}
+  \item set
+    \subitem closed, \FancyIndexEntry{3}
+    \subitem open, \FancyIndexEntry{1}
+  \item sheet, \FancyIndexEntry{39}
+  \item simply connected, \FancyIndexEntry{32}
+  \item space
+    \subitem quotient, \FancyIndexEntry{42}
+    \subitem topological, \FancyIndexEntry{1}
+    \subitem universal covering, \FancyIndexEntry{49}
+    \subitem with marked point, \FancyIndexEntry{24}
+  \item spanned, \FancyIndexEntry{5}
+  \item star shaped, \FancyIndexEntry{32}
+  \item strict map, \FancyIndexEntry{25}
+  \item subspace
+    \subitem topology, \FancyIndexEntry{2}, \FancyIndexEntry{8}
+  \item surface, \FancyIndexEntry{30}
+
+  \indexspace
+
+  \item theorem
+    \subitem Baire category, \FancyIndexEntry{15}
+    \subitem fundamental, of algebra, \FancyIndexEntry{36}, 
+		\FancyIndexEntry{41}
+    \subitem van~Kampen, \FancyIndexEntry{55}, \FancyIndexEntry{59}
+  \item topological space, \FancyIndexEntry{1}
+  \item topology, \FancyIndexEntry{1}
+    \subitem basis, \FancyIndexEntry{4}
+    \subitem cofinite, \FancyIndexEntry{3}
+    \subitem discrete, \FancyIndexEntry{2}
+    \subitem Golomb, \FancyIndexEntry{13}
+    \subitem half-open, \FancyIndexEntry{6}
+    \subitem indiscrete, \FancyIndexEntry{2}
+    \subitem product, \FancyIndexEntry{7}
+    \subitem quotient, \FancyIndexEntry{23}
+    \subitem subspace, \FancyIndexEntry{2}, \FancyIndexEntry{8}
+    \subitem Zariski, \FancyIndexEntry{1}, \hyperpage{17, 18}
+  \item tree, \FancyIndexEntry{33}
+
+  \indexspace
+
+  \item universal covering space, \FancyIndexEntry{49}
+
+  \indexspace
+
+  \item van~Kampen's theorem, \FancyIndexEntry{55}, 
+		\FancyIndexEntry{59}
+
+  \indexspace
+
+  \item word, \FancyIndexEntry{56}, \FancyIndexEntry{58}
+    \subitem reduced, \FancyIndexEntry{58}
+
+  \indexspace
+
+  \item Zariski
+    \subitem open set, \FancyIndexEntry{1}
+    \subitem topology, \FancyIndexEntry{1}, \hyperpage{17, 18}
+
+\end{theindex}

@@ -171,13 +171,107 @@ Prove that the open unit disk in the plane is not homeomorphic to the real numbe
 
 \section{Proper maps}
 A \emph{proper map}\define{proper!map} \(f \colon X \to Y\) is a continuous map so that the preimage of any compact set is compact.
+\begin{example}
+On \(X=\R{}\), every nonconstant polynomial is proper.
+\end{example}
+\begin{example}
+On \(X=\R{2}\), the polynomial \(x^2+y^2\) is proper, while \(x,x^3,x^2y^2,x^2+y^3\) are not proper.
+\end{example}
 \begin{problem}{continuity:sine.not.proper}
 Which trigonometric and inverse trigonometric functions are proper maps?
 \end{problem}
 \begin{problem}{continuity:1.point}
 The \emph{one point compactification} of a topological space \(X\) is the topological space \(\bar{X}\) whose points are \(X \cup \set{\infty}\) for some element \(\infty\) not in \(X\), and whose open sets are (a) the open sets of \(X\) and (b) the sets \(\set{\infty} \cup (X-C)\) for \(C \subset X\) compact.
+Prove that these sets form the open sets of a topology.
 Prove that a continuous map \(f \colon X \to Y\) of Hausdorff spaces is proper if and only if it extends to a continuous map \(\bar{f} \colon \bar{X} \to \bar{Y}\) with \(\bar{f}(\infty)=\infty\).
 \end{problem}
+\begin{problem}{continuity:1.point.u}
+For a topological space \(X\), prove that \(X\) is a locally compact Hausdorff space if and only if there exists a topological space \(X'\) so that
+\begin{itemize}
+\item
+\(X\) is embedded into \(X'\) and
+\item
+\(X'-X\) is a single point (to be denoted \(\infty\)) and
+\item
+\(X'\) is a compact Hausdorff space.
+\end{itemize}
+Moreover \(X'\) is then homeomorphic to the one point compactification of \(X\) by the unique homeomorphism which is the identity on \(X\).
+\end{problem}
+\begin{answer}{continuity:1.point.u}
+If \(X',X''\) are two such spaces, define \(f\colon X'\to X''\) to be the identity on \(X\) and \(\infty\to\infty\).
+Take an open set \(U\subseteq X'\).
+If \(\infty\) is not in \(U\), \(f(U)=U\) is open since \(X\subset X''\) is embedded.
+If \(\infty\in U\), \(C\defeq X'-U=X-(U-\infty)\) is closed in \(X'\) so compact in \(X'\), therefore in \(X\) since \(X\subset X'\) is embedded, and so \(C\) is compact in \(X''\), and so closed since \(X''\) is Hausdorff.
+Hence \(U=X''-C\) is open.
+Therefore \(f\) is an open map, and so is \(f^{-1}\) by the same argument, so both are homeomorphisms.
+
+Following problem~\vref{problem:continuity:1.point}, let \(X'\) be the one point compactification of \(X\).
+We need to prove that \(X'\) is compact and Hausdorff and that \(X\subset X'\) is embedded.
+Trivially any open set \(U\subset X'\) intersects \(X\) in an open set, so the inclusion map \(X\to X'\) is continuous.
+Conversely, any open set in \(X\) is open in \(X'\), so the inclusion map is open, hence an embedding.
+
+Take an open cover of \(X'\) by open sets \(X'_a\).
+Each is either \(X'_a=(X-C_a)\cup\set{\infty}\) for a compact set \(C_a\subseteq X\) or \(X'_a=X_a\) for open sets \(X_a\subseteq X\).
+At least one of these \(X'_a\) contains \(\infty\), so is some \(X-C_{a_0}\).
+The sets \(X_a\) or \(X-C_a\) cover \(X'-\set{\infty}\) so cover \(X\).
+Because \(C_{a_0}\subseteq X\) is compact, \(C_{a_0}\) is covered by finitely many of these.
+So then \(X'=X\cup\set{\infty}\) is covered by those finitely many together with \((X-C_{a_0})\cup\set{\infty}\).
+
+To see that \(X'\) is Hausdorff, note that \(X\subset X'\) is embedded and Hausdorff.
+Take two points \(x,y\in X'\).
+If both are in \(X\), then they are housed off.
+So we can suppose that \(y=\infty\) and \(x\\in X\).
+Because \(X\) is locally compact, we can choose a compact set \(C\subseteq X\) containing an open set \(U\) around \(x\), and then \(U,(X-C)\cup\set{\infty}\) house \(x,\infty\).
+
+If \(X'\) satisfying these three conditions exists, we need to prove that \(X\) is locally compact and Hausdorff.
+But \(X\subset X'\) is embedded in a Hausdorff space, so Hausdorff.
+Pick a point \(x\in X\) and houses in \(X'\): open sets \(U,V\subseteq X'\) so that \(x\in U\) and \(\infty\in V\) and \(U\cap V\) is empty.
+Then \(C=X'-V\) is closed in \(Y\) so compact, and so compact in \(X\), and contains \(U\).
+So \(X\) is locally compact.
+\end{answer}
+\begin{problem}{continuity:compactify.Rn}
+Prove that the one point compactification of Euclidean space \(\R{n}\) is homeomorphic to the sphere \(S^n\).
+\end{problem}
+\begin{answer}{continuity:compactify.Rn}
+If we write a point \(p\) of the sphere \(S^n\subset\R{n+1}\) as
+\[
+p=
+\begin{pmatrix}
+a\\
+b
+\end{pmatrix}
+\]
+with \(a\in\R{n}\) and \(b\in\R{}\), then map
+\[
+y=\varpi(p)=\frac{a}{1-b}.
+\]
+The inverse map is
+\[
+p=\varpi^{-1}(y)=
+\begin{pmatrix}
+0\\
+1
+\end{pmatrix}
++
+\frac{1}{1+\norm{y}^2}
+\begin{pmatrix}
+2y\\
+-2
+\end{pmatrix}.
+\]
+So 
+\[
+\varpi\colon S^n-\begin{pmatrix}
+0\\
+-1
+\end{pmatrix}
+\to\R{n}
+\]
+is a homeomorphism.
+\end{answer}
+\begin{center}
+\input{ptolemaic}
+\end{center}
 A map \(f\colon X \to Y\) is \emph{open}\define{open map}\define{map!open} if the image of any open set is open, \emph{closed}\define{closed map}\define{map!closed} if the image of any closed set is closed.
 \begin{problem}{continuity:closed.homeo}
 Prove that any closed injection \(f\colon X\to Y\) is a homeomorphism to its image.
@@ -282,6 +376,7 @@ Suppose that we have a map \(f \colon X \to Y\) between two sets \(X\) and \(Y\)
 If \(X\) has a topology given, but \(Y\) doesn't, the \emph{quotient topology}%
 \define{quotient!topology}%
 \define{topology!quotient} on \(Y\) has an open sets precisely those subsets of \(Y\) whose preimages in \(X\) happen to be open.
+(In other words, a subset of \(Y\) is open just when it is the image of an open set in \(X\) which is a union of fibers of \(f\); that open set in \(X\) is precisely its preimage.)
 Clearly for any map \(f \colon X \to Y\), the quotient topology is the ``simplest'' (has the fewest open sets) so that \(f\) becomes continuous.
 In a picture, if we draw \(X\) as a looking like a box, and \(Y\) as its shadow on the plane:
 \begin{center}
@@ -348,6 +443,7 @@ We can say that two points of \(X\) are equivalent if they have the same value u
 On the other hand, given an equivalence relation \(\sim\) on \(X\), define the \emph{quotient}\define{quotient} \(X/{\sim}\), to the the set of all equivalence classes, and the \emph{quotient map}%
 \define{quotient!map} \(X \to X/{\sim}\) by sending each point \(x \in X\) to its equivalence class \([x]\).
 If we write \(X/{\sim}\) as \(Y\) and the quotient map as \(f\) (to avoid the intimidating notation), we define the \emph{quotient topology} by an equivalence relation to be the quotient topology via the quotient map.
+(In other words, a subset of \(Y\) is open just when it is the image of an open set in \(X\) which contains every element equivalent to any of its elements; that open set in \(X\) is precisely its preimage.)
 It is just a change of notation and language, but we get just the same quotient spaces if we think about surjective maps \(f \colon X \to Y\) or equivalence relations \(\sim\) on a topological space \(X\).
 \begin{theorem}
 Take a topological space \(X\) and an equivalence relation \(\sim\) on \(X\) with quotient map \(X \to X/{\sim}\).
